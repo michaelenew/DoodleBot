@@ -1,0 +1,32 @@
+// Distance in mm between pen axis of rotation and pen tip
+tip_offset      95
+
+// if inputting angular pos in (deg, rad, rotations) use (360, 2pi, 1)
+angularconv     360     
+
+// threshold in same units as for angularconv of how far the pen/base can rotate in one motion
+arcthreshold    1       
+
+// X, Y, Z, THB, and THP motor steps per rotation
+xsteps          800     
+ysteps          400
+zsteps          200
+thpsteps        3200
+thbsteps        3200
+
+// mm/rotation on printer X, Y, and Z axes, measured from printer directly
+xrot2mm         39.98   
+yrot2mm         41.7
+zrot2mm         0.8
+
+// Pen and Base rotation/motor rotation
+thprot2rot      1       
+thbrot2rot      1 
+
+// mm between printer X, Y, and Z axis zero and endstop
+xmm2orig        94.5
+ymm2orig        15.53
+zmm2orig        60.2
+
+// Potentiometer value when pen is at 0 degrees (horizontal)
+thp_orig_potval 185
